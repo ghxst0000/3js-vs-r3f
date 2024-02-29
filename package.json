@@ -1,0 +1,17 @@
+{
+  "name": "r3fvsthree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-deps": "npm install --prefix ThreeJS-Spinning-Cube && npm install --prefix R3F-Spinning-Cube",
+    "start-threejs": "npm start --prefix ThreeJS-Spinning-Cube",
+    "start-r3f": "npm start --prefix R3F-Spinning-Cube"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.1.4"
+  }
+}
